@@ -10,7 +10,8 @@
     "express": "^4.13.3",
     "forever": "^0.15.1",
     "react": "^0.14.2",
-    "react-dom": "^0.14.2"
+    "react-dom": "^0.14.2",
+    "webpack": "^1.12.9"
   },
   "devDependencies": {
     "babel-core": "^6.1.21",
