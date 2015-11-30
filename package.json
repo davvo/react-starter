@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "forever server.js",
+    "nodemon": "nodemon --verbose --ignore 'src/*' --ignore 'public/*' server.js",
     "watch": "webpack --watch --progress --colors"
   },
   "dependencies": {

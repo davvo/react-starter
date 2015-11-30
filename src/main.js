@@ -1,9 +1,7 @@
-'use strict'
+import React from 'react'
+import { render } from 'react-dom'
 
 require('./main.css');
-
-import React from 'react'
-import ReactDOM from 'react-dom'
 
 class App extends React.Component {
 	render() {
@@ -13,4 +11,4 @@ class App extends React.Component {
 	}
 }
 
-ReactDOM.render(<App />, document.querySelector('#content'))
+render(<App />, document.querySelector('#content'))
