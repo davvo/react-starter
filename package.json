@@ -1,5 +1,5 @@
 {
-  "name": "dormant-web",
+  "name": "",
   "version": "1.0.0",
   "scripts": {
     "start": "forever server.js",
