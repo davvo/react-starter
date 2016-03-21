@@ -1,7 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
+import { Router, Route, IndexRoute, Link, browserHistory } from 'react-router'
 
-require('./main.css');
+import './main.css'
 
 class App extends React.Component {
 	render() {
@@ -11,4 +12,9 @@ class App extends React.Component {
 	}
 }
 
-render(<App />, document.querySelector('#content'))
+render((
+  <Router history={browserHistory}>
+    <Route path="/" component={App}>
+    </Route>
+  </Router>
+), document.querySelector('#root'))
